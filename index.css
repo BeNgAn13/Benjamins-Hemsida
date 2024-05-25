@@ -1,0 +1,66 @@
+Body{
+    /* Detta ändrar hur min hemsida ser ut som tex bakgrund osv*/
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Svart bakgrund */
+    color: #fff; /* Vit text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Detta ändrar saker med min meny */
+.main-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+}
+/* Detta ändrar saker med min meny */
+.content {
+    flex: 1;
+    margin-right: 20px;
+}
+/* Detta ändrar saker med min meny */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 200px;
+}
+/* Detta ändrar saker med min meny */
+.navbar a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+/* Detta ändrar saker med min meny */
+.navbar a:hover {
+    background-color: #575757;
+    color: white;
+}
+/* Detta ändrar saker med min meny */
+.content-section {
+    background-color: #333; /* Mörk bakgrund för innehållet */
+    color: #fff; /* Vit text */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+/* Detta ändrar storleken på min bild */
+.content-section img {
+    max-width: 5px;
+    height: auto;
+    border-radius: 2px;
+}
+/* Detta ändrar saker med min bild */
+.small-image {
+    width: 1px; /* Ändrar hur bred bilden ska vara */
+    height: auto; /* Gör så att bildens höjd automatiskt blir som jag vill ha den */
+}
